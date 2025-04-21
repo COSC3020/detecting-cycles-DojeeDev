@@ -30,30 +30,3 @@ function hasCycle(g) {
   }
   return false;
 }
-
-
-var testGraph = [
-  [1,5],
-  [2],
-  [3,4,8],
-  [6],
-  [],
-  [6],
-  [7],
-  [],
-  []
-]
-
-var testGraph2 = [
-  [1,5],
-  [0, 2],
-  [3,4,8],
-  [],
-  [],
-  [6],
-  [7],
-  [],
-  []
-]
-console.log(hasCycle(testGraph));
-console.log(hasCycle(testGraph2));
